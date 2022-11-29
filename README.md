@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 You need to copy ``.env.example`` file to ``.env`` and set the appropriate environment to be able to run the project
 
 Before running the project copy ```.env.example``` to ```.env``` and update it with proper values
+In .env ```REACT_APP_BASE_URL``` must be base path like ```https://google.com``` not ``https://google.com/api``
+``/api`` will be appended automatically
 
 ## Available Scripts
 
