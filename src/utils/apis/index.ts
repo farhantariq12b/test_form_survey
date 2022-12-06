@@ -25,7 +25,7 @@ api.interceptors.request.use(
 
 api.interceptors.response.use(
   (response) => {
-    if (!response || !response?.data || !response?.data?.data?.success) {
+    if (!response?.data?.success) {
       throw new Error("No response from server");
     }
     return response.data;

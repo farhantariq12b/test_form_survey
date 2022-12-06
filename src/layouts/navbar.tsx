@@ -14,7 +14,7 @@ import {
   DropdownItem,
   NavbarText,
 } from "reactstrap";
-import { FormRoutes } from "routes/paths";
+import { FormRoutes } from "../routes/paths";
 import { AppNavLink } from "./components/nav-link";
 
 export const AppNavbar = () => {
